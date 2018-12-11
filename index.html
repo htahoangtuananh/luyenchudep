@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Luyen chu Suong Suong</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Custom css -->
+        <link rel="stylesheet" href="assets/css/site.css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    </head>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                items:1
+            })
+        });
+    </script>
+    <body>
+        <section id="header">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="assets/img/logo.png"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <nav id="header-nav" class="navbar navbar-default">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header visible-sm visible-xs">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="#">
+                                        <img class="img-responsive" src="assets/img/logo.png"/>
+                                    </a>
+                                </div>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav">
+                                        <li class=""><a href="#">Trang chủ<span class="sr-only">(current)</span></a></li>
+                                        <li><a href="#">Giới thiệu</a></li>
+                                        <li><a href="#">Khóa học</a></li>
+                                        <li><a href="#">Cảm nhận học viên</a></li>
+                                        <li><a href="#">Lịch học</a></li>
+                                        <li><a href="#">Liên hệ</a></li>
+                                    </ul>
+                                </div><!-- /.navbar-collapse -->
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="carousel">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="img-responsive" src="assets/img/main.png"/>
+                </div>
+            </div>
+        </section>
+
+        <section id="body">
+            <div id="body-title" class="row">
+                <h3>chào mừng các bạn đến với trung tâm <span><img id="herbal" class="img-responsive" src="assets/img/herbal.png"/></span></h3>
+                <p>Tại sao bạn lại chọn chúng tôi ?</p>
+            </div>
+        </section>
+    </body>
+</html>

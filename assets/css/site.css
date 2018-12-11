@@ -1,0 +1,25 @@
+#header-nav{
+    background: none;
+    border: none;
+}
+
+#header-nav li a{
+    font-size: 17px;
+    color: rgb(14, 133, 75);
+    font-weight: bold;
+}
+
+#body-title{
+    text-align: center;
+}
+
+#body-title h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#herbal{
+    width: 4%;
+    display: inline;
+}
