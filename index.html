@@ -26,7 +26,17 @@
                 margin:10,
                 nav:true,
                 items:1
-            })
+            });
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            var h = $('#method-panel').height();
+
+            $('#teacher-panel').height(h);
+            $('#environment-panel').height(h);
+            $('#model-panel').height(h);
         });
     </script>
     <body>
@@ -81,8 +91,93 @@
 
         <section id="body">
             <div id="body-title" class="row">
-                <h3>chào mừng các bạn đến với trung tâm <span><img id="herbal" class="img-responsive" src="assets/img/herbal.png"/></span></h3>
+                <h3>chào mừng các bạn đến với trung tâm <span><img class="img-responsive herbal" src="assets/img/herbal.png"/></span></h3>
                 <p>Tại sao bạn lại chọn chúng tôi ?</p>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-1 col-md-10">
+                    <div class="row equal">
+                        <div class="col-md-3 col">
+                            <div class="panel panel-default body-panel">
+                                <div id="teacher-panel" class="panel-body">
+                                    <img class="img-responsive" src="assets/img/teacher.png"/>
+                                    <div class="panel-content">
+                                        <h4>giáo viên</h4>
+                                        <p>Đội ngũ giáo viên mến trẻ , kinh nghiệm và tâm huyết, 100% tốt nghiệp Đại học Sư phạm khoa tiểu học và các chứng chỉ liên quan tới ngành nghề luyện chữ đẹp. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col">
+                            <div class="panel panel-default body-panel">
+                                <div id="environment-panel" class="panel-body">
+                                    <img class="img-responsive" src="assets/img/environment.png"/>
+                                    <div class="panel-content">
+                                        <h4>môi trường</h4>
+                                        <p>Trang thiết bị tiêu chuẩn tốt, môi trường sư phạm hoàn thiện. Lớp học đầy đủ các trang thiết bị cần thiết, tiện nghi cho việc học tập. Bàn ghế phù hợp với độ cao của học sinh.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col">
+                            <div class="panel panel-default body-panel">
+                                <div id="method-panel" class="panel-body">
+                                    <img class="img-responsive" src="assets/img/method.png"/>
+                                    <div class="panel-content">
+                                        <h4>phương pháp</h4>
+                                        <p>Phương pháp giảng dạy độc đáo, tạo hứng thú cho học sinh với bộ môn Luyện chữ đẹp. Tương tác tối đa kiến thức giáo viên với học sinh. Lấy học sinh làm tâm điểm, khuyến khích sự nỗ lực, tư duy sáng tạo của học sinh.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col">
+                            <div class="panel panel-default body-panel">
+                                <div id="model-panel" class="panel-body">
+                                    <img class="img-responsive" src="assets/img/model.png"/>
+                                    <div class="panel-content">
+                                        <h4>mô hình</h4>
+                                        <p>Mô hình học tập theo nhóm 1 cô với 6 học sinh chính là mô hình phù hợp nhất để học sinh có thể nắm bắt tốt kiến thức. Cô giáo dạy học, nắm tay từng bạn để hướng đãn và xây dựng bài giảng phù hợp với khả năng từng học sinh.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="data">
+            <div id="data-holder" class="row">
+                <h3>Số liệu về trung tâm <span><img class="img-responsive herbal" src="assets/img/white-herbal.png"/></span></h3>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="col-md-2 col-md-offset-1 data-col">
+                            <img class="img-responsive" src="assets/img/calendar.png"/>
+                            <p id="calendar-data"></p>
+                            <p>Năm hoạt động</p>
+                        </div>
+                        <div class="col-md-2 data-col">
+                            <img class="img-responsive" src="assets/img/home.png"/>
+                            <p id="home-data"></p>
+                            <p>Cơ sở</p>
+                        </div>
+                        <div class="col-md-2 data-col">
+                            <img class="img-responsive" src="assets/img/open-book.png"/>
+                            <p id="class-data"></p>
+                            <p>Lớp đã mở</p>
+                        </div>
+                        <div class="col-md-2 data-col">
+                            <img class="img-responsive" src="assets/img/students-cap.png"/>
+                            <p id="student-data"></p>
+                            <p>Học viên tốt nghiệp</p>
+                        </div>
+                        <div class="col-md-2 data-col">
+                            <img class="img-responsive" src="assets/img/multiple-users-silhouette.png"/>
+                            <p id="teacher-data"></p>
+                            <p>Giáo viên</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </body>

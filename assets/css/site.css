@@ -1,3 +1,29 @@
+/*****FONT********/
+
+@font-face {
+    font-family: 'svn-gilroybold';
+    src:
+    url('fonts/SVN-Gilroy_Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'svn-gilroylight';
+    src:
+    url('fonts/SVN-Gilroy_Light.otf') format('opentype')
+;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.row{
+    margin: 0;
+}
+
 #header-nav{
     background: none;
     border: none;
@@ -16,10 +42,93 @@
 #body-title h3{
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: bold;
+    margin-bottom: 0;
+    font-family: "svn-gilroybold";
 }
 
-#herbal{
-    width: 4%;
+#body-title p{
+    font-family: "svn-gilroylight";
+    font-size: 14px;
+}
+
+.herbal{
+    width: 3%;
     display: inline;
+}
+
+/********************************* INTRO ***************************************/
+
+.body-panel{
+    border: none;
+}
+
+.body-panel h4{
+    font-family: "svn-gilroybold";
+    text-transform: uppercase;
+}
+
+.body-panel p {
+    font-family: "svn-gilroylight";
+    font-size: 12px;
+}
+
+.body-panel .panel-body{
+    padding: 0;
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.1);
+}
+
+.panel-content{
+    padding: 10px 10px 30px 10px;
+}
+
+#teacher-panel{
+    background: url('../img/teacher-background.png') no-repeat center;
+    background-size: cover;
+}
+
+#environment-panel{
+    background: url('../img/environment-background.png') no-repeat center;
+    background-size: cover;
+}
+
+#method-panel{
+    background: url('../img/method-background.png') no-repeat center;
+    background-size: cover;
+}
+
+#model-panel{
+    background: url('../img/model-background.png') no-repeat center;
+    background-size: cover;
+}
+
+
+/***************************** DATA ***************************************/
+
+
+#data-holder{
+    background: url('../img/data-background.png') no-repeat center;
+    background-size: cover;
+}
+
+#data-holder h3{
+    color: white;
+    text-align: center;
+    font-family: "svn-gilroybold";
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.data-col{
+    padding: 0;
+}
+
+.data-col p{
+    color: white;
+    text-align: center;
+    font-family: "svn-gilroybold";
+}
+
+.data-col img{
+    width: 40%;
+    margin:auto;
 }
