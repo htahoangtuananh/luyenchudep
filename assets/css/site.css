@@ -16,9 +16,11 @@
 ;
     font-weight: normal;
     font-style: normal;
-
 }
 
+section{
+    margin-bottom: 50px;
+}
 
 .row{
     margin: 0;
@@ -52,7 +54,7 @@
 }
 
 .herbal{
-    width: 3%;
+    max-width: 30px;
     display: inline;
 }
 
@@ -110,6 +112,11 @@
     background-size: cover;
 }
 
+.data{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 #data-holder h3{
     color: white;
     text-align: center;
@@ -126,6 +133,10 @@
     color: white;
     text-align: center;
     font-family: "svn-gilroybold";
+}
+
+.count{
+    font-size: 30px;
 }
 
 .data-col img{
