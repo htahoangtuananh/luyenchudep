@@ -21,13 +21,26 @@
     </head>
     <script>
         $(document).ready(function () {
-            $('.owl-carousel').owlCarousel({
+            $('.cover-carousel').owlCarousel({
                 loop:true,
                 margin:10,
                 nav:true,
                 items:1
             });
-
+            $('.feeling-carousel').owlCarousel({
+                loop:true,
+                nav:true,
+                items:1
+            });
+            $('.gallery-carousel').owlCarousel({
+                loop: true,
+                rewind: true,
+                nav: false,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                autoplayTimeout: 3000,
+                items: 5,
+            });
         });
     </script>
     <script>
@@ -97,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel owl-theme">
+            <div class="cover-carousel owl-carousel owl-theme">
                 <div class="item">
                     <img class="img-responsive" src="assets/img/main.png"/>
                 </div>
@@ -191,6 +204,98 @@
                             <p id="teacher-data" class="count">27</p>
                             <p>Giáo viên</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="classes">
+            <div id="classes-title" class="row">
+                <h3>các khóa học <span><img class="img-responsive herbal" src="assets/img/herbal.png"/></span></h3>
+            </div>
+            <div class="row">
+                <div class="classes-holder col-md-10 col-md-offset-1">
+                    <div class="classes col-md-3 col-xs-12 ">
+                        <div class="classes-container">
+                            <img class="img-responsive" src="assets/img/class1.png">
+                            <p><strong>Khóa học cho bé chuẩn bị vào lớp 1</strong></p>
+                        </div>
+                    </div>
+                    <div class="classes col-md-3 col-xs-12 ">
+                        <div class="classes-container">
+                            <img class="img-responsive" src="assets/img/class1.png">
+                            <p><strong>Khóa học cho bé chuẩn bị vào lớp 1</strong></p>
+                        </div>
+                    </div>
+                    <div class="classes col-md-3 col-xs-12 ">
+                        <div class="classes-container">
+                            <img class="img-responsive" src="assets/img/class1.png">
+                            <p><strong>Khóa học cho bé chuẩn bị vào lớp 1</strong></p>
+                        </div>
+                    </div>
+                    <div class="classes col-md-3 col-xs-12 ">
+                        <div class="classes-container">
+                            <img class="img-responsive" src="assets/img/class1.png">
+                            <p><strong>Khóa học cho bé chuẩn bị vào lớp 1</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="feeling">
+            <div id="feeling-holder" class="row">
+                <h3>Cảm nhận học viên <span><img class="img-responsive herbal" src="assets/img/white-herbal.png"/></span></h3>
+                <div class="row data">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="feeling-carousel owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="col-md-offset-1 col-md-10">
+                                    <p class="feeling-name">Bé Quốc Anh</p>
+                                    <p class="feeling-content">
+                                        On the other hand, we denounce with righteous indignation and dislike men who are so
+                                        beguiled and demoralized by the charms of pleasure of the moment, so blinded by
+                                        desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                                        and equal blame belongs to those who fail in their duty through weakness of will,
+                                        which is the same as saying through shrinking from toil and pain.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-offset-1 col-md-10">
+                                    <p class="feeling-name">Bé Quốc Anh</p>
+                                    <p class="feeling-content">
+                                        On the other hand, we denounce with righteous indignation and dislike men who are so
+                                        beguiled and demoralized by the charms of pleasure of the moment, so blinded by
+                                        desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                                        and equal blame belongs to those who fail in their duty through weakness of will,
+                                        which is the same as saying through shrinking from toil and pain.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <div class="row">
+                <div class="gallery-carousel owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="gallery-img img-responsive" src="assets/img/gallery-1.png"/>
+                    </div>
+                    <div class="item">
+                        <img class="gallery-img img-responsive" src="assets/img/gallery-2.png"/>
+                    </div>
+                    <div class="item">
+                        <img class="gallery-img img-responsive" src="assets/img/gallery-3.png"/>
+                    </div>
+                    <div class="item">
+                        <img class="gallery-img img-responsive" src="assets/img/gallery-4.png"/>
+                    </div>
+                    <div class="item">
+                        <img class="gallery-img img-responsive" src="assets/img/gallery-5.png"/>
                     </div>
                 </div>
             </div>

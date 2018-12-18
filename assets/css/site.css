@@ -37,8 +37,11 @@ section{
     font-weight: bold;
 }
 
+/********************************* INTRO ***************************************/
+
 #body-title{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #body-title h3{
@@ -57,8 +60,6 @@ section{
     max-width: 30px;
     display: inline;
 }
-
-/********************************* INTRO ***************************************/
 
 .body-panel{
     border: none;
@@ -106,6 +107,9 @@ section{
 
 /***************************** DATA ***************************************/
 
+#data{
+    margin: 0;
+}
 
 #data-holder{
     background: url('../img/data-background.png') no-repeat center;
@@ -142,4 +146,93 @@ section{
 .data-col img{
     width: 40%;
     margin:auto;
+}
+
+
+/***************************** CLASSES ***************************************/
+
+#classes{
+    background: url('../img/herbal-1.png') top left no-repeat, url('../img/herbal-2.png') bottom right no-repeat;
+    background-size: 15%;
+    padding: 50px 0px;
+}
+
+.classes-holder{
+    text-align: center;
+}
+
+#classes-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#classes-title h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-family: "svn-gilroybold";
+}
+
+.classes{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.classes img{
+    object-fit: cover;
+}
+
+.classes p{
+    text-align: center;
+}
+
+
+/***************************** FEELING ***************************************/
+
+#feeling{
+    margin: 0;
+}
+
+#feeling-holder{
+    background: url('../img/feeling_background.png') no-repeat center;
+    background-size: cover;
+}
+
+#feeling-holder h3{
+    color: white;
+    text-align: center;
+    font-family: "svn-gilroybold";
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#feeling-holder .feeling-content{
+    color: white;
+    text-align: center;
+    font-family: "svn-gilroylight";
+}
+
+#feeling-holder .owl-prev, #feeling-holder .owl-next{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    bottom: 50%;
+}
+
+#feeling-holder .owl-prev{
+    left: 0;
+}
+
+#feeling-holder .owl-next{
+    right: 0;
+}
+
+#feeling-holder .item{
+    padding: 15px;
+}
+
+.feeling-name {
+    font-family: svn-gilroybold;
+    color: white;
+    text-align: center;
 }
